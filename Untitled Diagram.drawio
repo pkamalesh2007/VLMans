@@ -17,31 +17,58 @@
           <mxGeometry x="385" y="133" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B1IfwEj7gEJotNtnwie7-2" value="UserModule" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="180" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="69" y="328" width="121" height="62" as="geometry" />
         </mxCell>
         <mxCell id="B1IfwEj7gEJotNtnwie7-3" value="OrderModule" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="300" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="189" y="328" width="121" height="62" as="geometry" />
         </mxCell>
         <mxCell id="B1IfwEj7gEJotNtnwie7-4" value="PaymentModule" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="180" y="390" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="B1IfwEj7gEJotNtnwie7-5" value="ShipmentModule" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="300" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B1IfwEj7gEJotNtnwie7-6" value="&lt;b&gt;Monolithic DB&lt;/b&gt;&lt;div&gt;&amp;nbsp;order-data,&lt;/div&gt;&lt;div&gt;user-data,&lt;/div&gt;&lt;div&gt;payment-data&lt;/div&gt;&lt;div&gt;shipment-data&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="210" y="560" width="200" height="120" as="geometry" />
+          <mxGeometry x="45" y="550" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="B1IfwEj7gEJotNtnwie7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.569;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B1IfwEj7gEJotNtnwie7-4" target="B1IfwEj7gEJotNtnwie7-6">
+        <mxCell id="B1IfwEj7gEJotNtnwie7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.569;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B1IfwEj7gEJotNtnwie7-5" target="B1IfwEj7gEJotNtnwie7-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B1IfwEj7gEJotNtnwie7-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B1IfwEj7gEJotNtnwie7-11" target="B1IfwEj7gEJotNtnwie7-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B1IfwEj7gEJotNtnwie7-11" value="userms&lt;div&gt;java&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="610" y="330" width="90" height="90" as="geometry" />
+        <mxCell id="B1IfwEj7gEJotNtnwie7-11" value="user-ms&lt;div&gt;java&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="385" y="328" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="B1IfwEj7gEJotNtnwie7-12" value="userdata" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="640" y="450" width="60" height="80" as="geometry" />
+        <mxCell id="B1IfwEj7gEJotNtnwie7-12" value="userdb&lt;div&gt;user-data&lt;/div&gt;&lt;div&gt;Oracle&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="400" y="510" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B1IfwEj7gEJotNtnwie7-14" value="order-ms&lt;div&gt;.net&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="490" y="328" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="B1IfwEj7gEJotNtnwie7-15" value="orderdb&lt;div&gt;order-data&lt;/div&gt;&lt;div&gt;sqlserver&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="505" y="510" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B1IfwEj7gEJotNtnwie7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B1IfwEj7gEJotNtnwie7-14" target="B1IfwEj7gEJotNtnwie7-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1IfwEj7gEJotNtnwie7-17" value="payment-ms&lt;div&gt;python&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="610" y="328" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="B1IfwEj7gEJotNtnwie7-18" value="paymentdb&lt;div&gt;payment-data&lt;/div&gt;&lt;div&gt;Postgrse&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="620" y="500" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B1IfwEj7gEJotNtnwie7-5" value="ShipmentModule" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="190" y="392" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1IfwEj7gEJotNtnwie7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B1IfwEj7gEJotNtnwie7-17" target="B1IfwEj7gEJotNtnwie7-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1IfwEj7gEJotNtnwie7-23" value="shipment-ms&lt;div&gt;java&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="710" y="328" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="B1IfwEj7gEJotNtnwie7-24" value="shipmentdb&lt;br&gt;&lt;div&gt;shipment-data&lt;/div&gt;&lt;div&gt;Oracle&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="720" y="500" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B1IfwEj7gEJotNtnwie7-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B1IfwEj7gEJotNtnwie7-23" target="B1IfwEj7gEJotNtnwie7-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
