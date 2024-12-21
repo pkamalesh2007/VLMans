@@ -28,7 +28,7 @@
         <mxCell id="B1IfwEj7gEJotNtnwie7-5" value="ShipmentModule" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="300" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B1IfwEj7gEJotNtnwie7-6" value="Monolithic DB&lt;div&gt;&amp;nbsp;order-data,&lt;/div&gt;&lt;div&gt;user-data,&lt;/div&gt;&lt;div&gt;payment-data&lt;/div&gt;&lt;div&gt;shipment-data&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="B1IfwEj7gEJotNtnwie7-6" value="&lt;b&gt;Monolithic DB&lt;/b&gt;&lt;div&gt;&amp;nbsp;order-data,&lt;/div&gt;&lt;div&gt;user-data,&lt;/div&gt;&lt;div&gt;payment-data&lt;/div&gt;&lt;div&gt;shipment-data&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="210" y="560" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="B1IfwEj7gEJotNtnwie7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.569;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B1IfwEj7gEJotNtnwie7-4" target="B1IfwEj7gEJotNtnwie7-6">
