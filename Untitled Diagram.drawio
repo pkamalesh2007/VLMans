@@ -64,7 +64,7 @@
         <mxCell id="B1IfwEj7gEJotNtnwie7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B1IfwEj7gEJotNtnwie7-17" target="B1IfwEj7gEJotNtnwie7-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B1IfwEj7gEJotNtnwie7-23" value="shipment-ms&lt;div&gt;java&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="B1IfwEj7gEJotNtnwie7-23" value="shipment-ms&lt;div&gt;goLang&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="740" y="328" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="B1IfwEj7gEJotNtnwie7-24" value="shipmentdb&lt;br&gt;&lt;div&gt;shipment-data&lt;/div&gt;&lt;div&gt;MangoDB&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
